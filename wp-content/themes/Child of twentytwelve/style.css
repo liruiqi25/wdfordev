@@ -1,0 +1,64 @@
+/*
+Theme Name: Ruki's stylesheet
+Description: Child theme based on twentytweleve
+Author: Analytical Engine Interactive Inc.
+Version: 1.0
+Template: twentytwelve
+*/
+
+@import url('../twentytwelve/style.css');
+@import url('http:fonts.googleapis.com/css?family=Bellefair|Roboto');
+
+body {
+	color: #B0B!important;
+}
+
+
+.site {
+    background-color: pink;
+}
+
+h1, h2, h3, h4 {
+	font-family:'Joti One',cursive;
+}
+
+.site-header {
+    background-color: #b3ccc6;
+}
+
+.site-header h1 {
+    color: #4c3b4b;
+}
+
+
+
+.site-header h1 a {
+	color:#ffffff;
+	display: inline-block;
+	text-decoration: none
+}
+
+.site-header h2 {
+    color: #cad7f1;
+}
+
+@media screen and (min-width: 600px){
+	.main-navigation li a{
+		color:#ffffff;
+	}
+}
+
+.widget-area .widget a {
+	color:#c853d4;
+}
+
+.archive-title {
+	color:#000000;
+}
+
+@media $screen and (min-width: 600px) {
+	.site-content-wide {
+		float:left;
+		width:99%;
+	}
+}
